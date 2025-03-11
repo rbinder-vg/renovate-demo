@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <PackageId>Demo</PackageId>
+        <Version>0.0.1</Version>
+        <Authors>Vector Informatik GmbH</Authors>
+        <Company>Vector Informatik GmbH</Company>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+  
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <AssemblyName>Demo</AssemblyName>
+        <RootNamespace>Demo</RootNamespace>
+        <Platforms>AnyCPU</Platforms>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    </ItemGroup>
+
+</Project>
